@@ -14,7 +14,7 @@ pyone run.py
 
 3.要运行的脚本默认为run.py，但也可以是别的名字，可以是main.py，甚至可以是pyone.py
 
-4.自定义脚本文件run.py里面依赖的库函数需要借助pyinstaller提前打包好
+4.自定义脚本文件run.py里面依赖的库需要借助pyinstaller提前打包好
 
 5.打包python环境依赖于pyinstaller，而执行自定义脚本的能力则在于“在顶层代码中执行exec(code)”
 
